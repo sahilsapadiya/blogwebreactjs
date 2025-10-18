@@ -53,10 +53,7 @@ const Home = () => {
           </h2>
         </h1>
       </div>
-
       <Blog />
-
-
       <footer className="h-[70px] items-center flex">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center gap-4 ">
           <p>&copy; {new Date().getFullYear()} OUR BLOG. All rights reserved.</p>

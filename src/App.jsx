@@ -22,7 +22,6 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/blog/:ss" element={<BlogDetails />} />
-
       </Routes>
     </BrowserRouter>
   );

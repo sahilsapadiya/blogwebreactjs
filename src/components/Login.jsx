@@ -2,6 +2,8 @@ import React from "react";
 import { signInWithPopup } from "firebase/auth";
 import { auth, provider } from "../firebase";
 import { useNavigate } from "react-router-dom";
+import aa from '../assets/google-logo-png_seeklogo-480540.png'
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -26,8 +28,7 @@ const Login = () => {
         </p>
         <img
           className="mb-8 w-3/4 mx-auto rounded-md"
-          src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg"
-          alt="Google login illustration"
+          src={aa} alt="Google Logo" width={100}  
         />
         <button
           onClick={handleLogin}
