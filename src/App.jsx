@@ -6,6 +6,9 @@ import About from "./components/About";
 import Privacy from "./components/Privacy";
 import Navbar from "./components/Navbar";
 import Blog from "./components/Blog";
+import BlogDetails from "./components/BlogDetails";
+
+
 
 
 const App = () => {
@@ -16,9 +19,10 @@ const App = () => {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/blog/" element={<Blog/>} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/blog/:ss" element={<BlogDetails />} />
+
       </Routes>
     </BrowserRouter>
   );

@@ -15,9 +15,8 @@ const Login = () => {
       console.error("Error:", error);
     }
   };
-
   return (
-    <div className="flex justify-center items-center min-h-screen bg-black px-4">
+    <div className="flex justify-center items-center min-h-screen[100vh] bg-black px-4">
       <div className="bg-white shadow-2xl w-full max-w-sm sm:max-w-md md:max-w-lg p-10 sm:p-16 rounded-2xl text-center">
         <h1 className="text-3xl sm:text-4xl font-bold text-[#1e293b] mb-6">
           Welcome Back
